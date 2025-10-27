@@ -1,0 +1,12 @@
+# Telegram Alerts 配置示例
+
+[telegram]
+# 在 BotFather 创建的 Bot Token
+bot_token = "your_bot_token_here"
+
+# 频道或群聊的 ID，支持 -100 前缀的群组 ID 或 @channel_username
+chat_id = "your_chat_id_here"
+
+[server]
+# 可选：HTTP 服务监听地址，默认 :8080
+addr = ":8080"
